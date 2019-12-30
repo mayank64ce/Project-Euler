@@ -14,7 +14,5 @@ int main() {
         ll sum+=3*(a*(a+1)/2)+5*(b*(b+1)/2)-15*(c*(c+1)/2);
         printf("%lld\n",sum);
     }
-    
-    
     return 0;
 }
