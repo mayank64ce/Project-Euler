@@ -11,7 +11,7 @@ int main() {
         scanf("%lld",&n);
         n--;
         ll a=n/3,b=n/5,c=n/15;
-        ll sum+=3*(a*(a+1)/2)+5*(b*(b+1)/2)-15*(c*(c+1)/2);
+        ll sum=3*(a*(a+1)/2)+5*(b*(b+1)/2)-15*(c*(c+1)/2);
         printf("%lld\n",sum);
     }
     return 0;
