@@ -9,13 +9,9 @@ int main() {
     while(t--)
     {
         scanf("%lld",&n);
-        ll sum=0;
+        n--;
         ll a=n/3,b=n/5,c=n/15;
-        sum+=3*(a*(a+1)/2)+5*(b*(b+1)/2)-15*(c*(c+1)/2);
-        if((n%3==0) or (n%5==0))
-        {
-            sum-=n;
-        }
+        ll sum+=3*(a*(a+1)/2)+5*(b*(b+1)/2)-15*(c*(c+1)/2);
         printf("%lld\n",sum);
     }
     
